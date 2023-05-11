@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./css/mystyle.css" />
+  </head>
+  <body>
+    <!--헤더-->
+    <div class="header">
+      <h1><a href="boardList.html">YOUNG's HTML/CSS PRACTICE</a></h1>
+      <div class="header-click">
+        <a href="login.html">LOGIN</a>
+        <a href="join.html">JOIN</a>
+        <a href="#">CHAT</a>
+      </div>
+    </div>
+
+    <!--메인-->
+    <div class="main">
+      <div class="container">
+        <h1 class="title">SIGN UP</h1>
+        <p class="description">Please sign up to use the service.</p>
+
+        <form class="login">
+          <div>
+            <label class="label-width" for="user-id">ID</label>
+            <input type="text" id="user-id" name="userId" placeholder="ID" />
+          </div>
+
+          <div>
+            <label class="label-width" for="user-email">EMAIL</label>
+            <input
+              type="email"
+              id="user-email"
+              name="userEmail"
+              placeholder="EMAIL"
+            />
+          </div>
+
+          <div>
+            <label class="label-width" for="user-pw">PASSWORD</label>
+            <input type="password" id="user-pw" name="userPw" />
+          </div>
+
+          <div>
+            <label class="label-width" for="user-nick">NICKNAME</label>
+            <input
+              type="text"
+              id="user-nick"
+              name="userNick"
+              placeholder="NICKNAME"
+            />
+          </div>
+
+          <fieldset class="field">
+            <legend>GENDER</legend>
+
+            <ul>
+              <li>
+                <input name="gender" type="radio" id="gender1" />
+                <label for="gender1">MALE</label>
+              </li>
+              <li>
+                <input name="gender" type="radio" id="gender2" />
+                <label for="gender2">FEMALE</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend>사용 기술</legend>
+            <ul>
+              <li>
+                <input name="html" type="checkbox" id="tech1" />
+                <label for="tech1">HTML</label>
+              </li>
+              <li>
+                <input name="css" type="checkbox" id="tech2" />
+                <label for="tech2">CSS</label>
+              </li>
+              <li>
+                <input name="js" type="checkbox" id="tech3" />
+                <label for="tech3">JavaScript</label>
+              </li>
+              <li>
+                <input name="python" type="checkbox" id="tech4" />
+                <label for="tech4">Python</label>
+              </li>
+              <li>
+                <input name="django" type="checkbox" id="tech5" />
+                <label for="tech5">Django</label>
+              </li>
+              <li>
+                <input name="github" type="checkbox" id="tech6" />
+                <label for="tech6">GitHub</label>
+              </li>
+              <li>
+                <input name="sql" type="checkbox" id="tech7" />
+                <label for="tech7">PostgreSQL</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <button class="submit-button" type="submit">SIGN UP</button>
+        </form>
+      </div>
+    </div>
+
+    <!--푸터-->
+    <div class="footer">
+      <p>Copyright 2023. YOUNG All right reserved.</p>
+    </div>
+  </body>
+</html>

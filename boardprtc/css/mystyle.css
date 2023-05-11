@@ -1,0 +1,190 @@
+/*초기화 작업*/
+body,
+h1,
+p,
+fieldset,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/*헤더*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: rgb(224, 234, 255);
+  height: 100px;
+  border-bottom: 10px solid #eee;
+}
+
+.header h1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-click {
+  margin-right: 100px;
+}
+
+.header-click a {
+  margin-left: 30px;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.header-click a:hover {
+  color: royalblue;
+  font-weight: bold;
+  font-size: large;
+}
+
+/*푸터*/
+.footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 100px;
+}
+
+/*메인영역*/
+.main {
+  width: 1000px;
+  flex-grow: 1;
+  margin: auto;
+}
+
+body {
+  min-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*로그인*/
+.container {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 20px 0;
+  color: royalblue;
+  font-weight: bold;
+}
+
+.login {
+  margin-top: 40px;
+}
+
+.login > div {
+  display: flex;
+  margin-bottom: 20px;
+  padding-left: 70px;
+}
+
+.label-width {
+  width: 100px;
+}
+
+[type="text"],
+[type="password"],
+[type="email"] {
+  width: 230px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  width: 70%;
+  height: 35px;
+  margin-left: 65px;
+  background-color: rgb(224, 234, 255);
+  border: 2px solid #ccc;
+  border-width: 0 3px 3px 0;
+  border-radius: 4px;
+  margin-top: 20px;
+  font: inherit;
+  font-weight: bold;
+  box-sizing: content-box;
+}
+
+.submit-button:active {
+  border: 0;
+  margin-bottom: 20px;
+  font-size: large;
+  font-weight: bold;
+  color: royalblue;
+}
+
+/*회원가입*/
+.field {
+  border: 0;
+  margin: 30px 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.field ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 15px;
+}
+
+.field legend {
+  float: left;
+  width: 100px;
+  padding: 0;
+}
+
+[type="checkbox"]:checked + label {
+  font-weight: bold;
+  color: royalblue;
+}
+
+/*글목록*/
+.main-title {
+  margin: 50px 0 20px 0;
+}
+
+.main-desc {
+  margin-bottom: 40px;
+  color: royalblue;
+  font-size: large;
+}
+
+.table-list {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  border-top: 3px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.table-list th {
+  background-color: rgb(224, 234, 255);
+  padding: 7px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-list td {
+  padding: 10px;
+}
+
+.table-list a {
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.771);
+}

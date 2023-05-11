@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인</title>
+    <link rel="stylesheet" href="./css/mystyle.css" />
+  </head>
+  <body>
+    <!--헤더-->
+    <div class="header">
+      <h1><a href="boardList.html">YOUNG's HTML/CSS PRACTICE</a></h1>
+      <div class="header-click">
+        <a href="login.html">LOGIN</a>
+        <a href="join.html">JOIN</a>
+        <a href="#">CHAT</a>
+      </div>
+    </div>
+
+    <!--메인-->
+    <div class="main">
+      <div class="container">
+        <h1 class="title">LOGIN</h1>
+        <p class="description">Please enter your ID and password and log in.</p>
+
+        <form class="login">
+          <div>
+            <label class="label-width" for="user-id">ID</label>
+            <input type="text" id="user-id" name="userId" placeholder="ID" />
+          </div>
+
+          <div>
+            <label class="label-width" for="user-pw">PASSWORD</label>
+            <input type="password" id="user-pw" name="userPw" />
+          </div>
+
+          <div>
+            <input type="checkbox" id="save-id" name="saveId" />
+            <label for="save-id">SAVE ID</label>
+          </div>
+
+          <button class="submit-button" type="submit">LOGIN</button>
+        </form>
+      </div>
+    </div>
+
+    <!--푸터-->
+    <div class="footer">
+      <p>Copyright 2023. YOUNG All right reserved.</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>글 목록</title>
+    <link rel="stylesheet" href="./css/mystyle.css" />
+  </head>
+  <body>
+    <!--헤더-->
+    <div class="header">
+      <h1><a href="boardList.html">YOUNG's HTML/CSS PRACTICE</a></h1>
+      <div class="header-click">
+        <a href="login.html">LOGIN</a>
+        <a href="join.html">JOIN</a>
+        <a href="#">CHAT</a>
+      </div>
+    </div>
+
+    <!--메인-->
+
+    <div class="main">
+      <h2 class="main-title">BULLETIN BOARD</h2>
+      <p class="main-desc">There are <strong>2</strong> posts.</p>
+
+      <table class="table-list">
+        <thead>
+          <tr>
+            <th>NO</th>
+            <th>TITLE</th>
+            <th>WRITER</th>
+            <th>DATE</th>
+            <th>HIT</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>2</td>
+            <td>
+              <a href="#">위니브에서 수강생분들에게 알려드립니다. </a>
+            </td>
+            <td>jw0710</td>
+            <td>1997.07.10</td>
+            <td>999</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              <a href="#">이스트소프트 백엔드 개발 오르미 1기 모집</a>
+            </td>
+            <td>2zero0</td>
+            <td>1997.09.19</td>
+            <td>2002</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div>
+        <button type="button" onclick="location.href='write.html'">
+          WRITE
+        </button>
+      </div>
+    </div>
+
+    <!--푸터-->
+    <div class="footer">
+      <p>Copyright 2023. YOUNG All right reserved.</p>
+    </div>
+  </body>
+</html>
